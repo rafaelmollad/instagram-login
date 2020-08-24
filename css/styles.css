@@ -74,6 +74,7 @@ body {
   border: 0.1rem solid rgba(var(--border-color), 0.5);
   padding: 1.5rem 4rem;
   margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* Logo */
@@ -188,4 +189,31 @@ body {
 .forgot-password {
   color: var(--fb-logo);
   font-size: 1.2rem;
+}
+
+/*********** 
+ * SIGN UP *
+ ***********/
+
+/* Sign up container */
+.sign-up {
+  background: var(--white);
+  width: 35rem;
+  margin: 0 auto;
+  border: 0.1rem solid rgba(var(--border-color), 0.5);
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Don't have an account? */
+.sign-up span {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Sign up link */
+.sign-up a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--log-in-button);
 }
