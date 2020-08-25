@@ -289,3 +289,11 @@ footer {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+/********** 
+ * PHONES *
+ **********/
+
+.phones-container {
+  display: none;
+}
