@@ -217,3 +217,32 @@ body {
   font-weight: 700;
   color: var(--log-in-button);
 }
+
+/*************** 
+ * GET THE APP *
+ ***************/
+
+/* Get the app container */
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+/* Get the app text */
+.get-the-app span {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.app-images img {
+  width: 13rem;
+}
+
+/* Select the first image */
+.app-images img:nth-child(1) {
+  margin-right: 1rem;
+}
