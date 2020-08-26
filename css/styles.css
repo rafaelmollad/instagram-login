@@ -83,7 +83,8 @@ body {
 
 /* Logo */
 .logo {
-  width: 15rem;
+  width: 19rem;
+  margin-bottom: 1rem;
 }
 
 /* Log in form */
